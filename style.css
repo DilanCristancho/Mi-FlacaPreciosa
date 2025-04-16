@@ -173,3 +173,123 @@ body {
  .valentines-day:hover .text {
    transform: translateY(-50px);
  }
+@media (max-width: 1200px) {
+   #card {
+      width: 70%;
+      height: auto;
+      margin: 2em auto;
+      top: 0;
+      left: 15%;
+   }
+
+   #card h2 {
+      font-size: 2.5em;
+   }
+
+   #card p {
+      font-size: 1.2em;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   #card img {
+      width: 250px;
+      height: 450px;
+   }
+
+   .side {
+      width: 280px;
+      height: 500px;
+   }
+
+   .heart {
+      height: 150px;
+      width: 150px;
+   }
+}
+
+@media (max-width: 768px) {
+   #card {
+      width: 90%;
+      height: auto;
+      top: 0;
+      left: 5%;
+   }
+
+   #card h2 {
+      font-size: 2em;
+   }
+
+   #card p {
+      font-size: 1.1em;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+   #card img {
+      width: 200px;
+      height: 350px;
+   }
+
+   .side {
+      width: 260px;
+      height: 450px;
+   }
+
+   .heart {
+      height: 120px;
+      width: 120px;
+   }
+
+   .front {
+      width: 0;
+      height: 0;
+      border-right: 150px solid #fbd2d2;
+      border-top: 100px solid transparent;
+      border-bottom: 100px solid transparent;
+   }
+
+   .text {
+      font-size: 1.2em;
+      top: 60px;
+   }
+}
+
+@media (max-width: 480px) {
+   #card {
+      width: 100%;
+      margin: 1em 0;
+      top: 0;
+      left: 0;
+   }
+
+   #card h2 {
+      font-size: 1.8em;
+   }
+
+   #card p {
+      font-size: 1em;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   #card img {
+      width: 180px;
+      height: 320px;
+   }
+
+   .side {
+      width: 100%;
+      height: auto;
+   }
+
+   .heart {
+      height: 100px;
+      width: 100px;
+   }
+
+   .text {
+      font-size: 1em;
+      top: 50px;
+   }
+}
